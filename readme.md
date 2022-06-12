@@ -4,5 +4,6 @@ npm init or npm init -y
 npm install typescript ts-node express @types/express morgan @types/morgan axios @types/axios nodemon
 tsc --init
 
-
 npm run dev
+
+path = >https://xosignals.com/testnewxo/

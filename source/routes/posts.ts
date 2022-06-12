@@ -5,7 +5,7 @@ import controller from '../controllers/posts';
 const router = express.Router();
 
 
-router.use('/posts', check_authorization);
+// router.use('/posts', check_authorization);
 router.get('/posts', controller.getPosts);
 router.get('/posts/:id', controller.getPost);
 router.put('/posts/:id', controller.updatePost);
